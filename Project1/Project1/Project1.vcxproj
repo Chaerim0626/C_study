@@ -139,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="소스1.c" />
-    <ClCompile Include="소스2.c" />
+    <ClCompile Include="소스1_기초.c" />
+    <ClCompile Include="소스2_반복문.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

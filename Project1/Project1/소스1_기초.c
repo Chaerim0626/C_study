@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main_source1(void)
+int main(void)
 {
 
 
@@ -13,7 +13,7 @@ int main_source1(void)
 	//2. 주석 (2가지 방법)
 	/* 내용~ */
 	// 내용
-
+	
 
 	//3. 실수형 변수 double, float
 	float f = 46.5;
