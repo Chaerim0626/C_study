@@ -49,6 +49,7 @@ int main_d(void)
 	printf("%s\n", str);
 
 
+
 	//프로젝트 : 조서 작성
 	// 이름, 나이, 몸무게, 키, 범죄명 물어보기
 	char name[256];

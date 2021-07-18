@@ -21,5 +21,11 @@
     <ClCompile Include="소스2_반복문.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소스3_조건분기문.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스4_랜덤.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
