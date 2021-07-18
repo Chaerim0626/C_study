@@ -53,5 +53,40 @@ int main() {
 	}
 
 
+
+	//프로젝트 : UP and DOWN
+	srand(time(NULL));
+	int n = rand() % 100 + 1;
+	printf("숫자 : %d\n", num);
+	int answer = 0;
+	int chance = 5;
+	while (1)
+	{
+		printf("남은 기회 : %d번\n", chance--);
+		printf("숫자를 맞춰보세요 (1~100) : ");
+		scanf_s("%d", &answer);
+
+		if (answer > num)
+		{
+			printf("DOWN \n\n");
+		}
+
+		else if (answer < num)
+		{
+			printf("UP \n\n");
+		}
+		else
+		{
+			printf("정답입니다.\n");
+			break;
+		}
+
+		if (chance == 0)
+		{
+			printf("모든 기회를 다 사용하셨네요. 실패했습니다.\n");
+			break;
+		}
+	}
+
 	return 0;
 }
