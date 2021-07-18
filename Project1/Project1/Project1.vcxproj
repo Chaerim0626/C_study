@@ -143,6 +143,8 @@
     <ClCompile Include="소스2_반복문.c" />
     <ClCompile Include="소스3_조건분기문.c" />
     <ClCompile Include="소스4_랜덤.c" />
+    <ClCompile Include="소스5_함수.c" />
+    <ClCompile Include="소스6_배열.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

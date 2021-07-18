@@ -27,5 +27,11 @@
     <ClCompile Include="소스4_랜덤.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소스5_함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스6_배열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
